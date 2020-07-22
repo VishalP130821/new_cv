@@ -1,0 +1,80 @@
+body{
+  background-color: #E0EBE8;
+  text-align: center;
+}
+
+h1{
+  font-size: 82px;
+  font-family: 'Sacramento', cursive;
+  width: 40%;
+  margin: 0 auto 0 auto;
+  color: #45b29a;
+}
+h2{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h3{
+  font-family: 'Merienda One', cursive;
+
+}
+
+.A_programmer{
+  font-weight: bold;
+  font-family: papyrus;
+  font-size: 30px;
+  color: #45b29a;
+}
+
+.top-container{
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  margin-top: 20px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.copyright-info{
+  color: #006a71;
+}
+a:hover{
+  color: orange;
+}
+
+.my-image{
+  padding-top: 40px;
+  width: 200px;
+  height: 200px;
+}
+.skill-image2{
+  width: 180px;
+  height: 180px;
+}
+
+.skill-image1{
+  width: 180px;
+  height: 180px;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 10%;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
