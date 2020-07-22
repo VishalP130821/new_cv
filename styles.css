@@ -67,6 +67,10 @@ a:hover{
   height: 180px;
 }
 
+.footer-link{
+  font-size: 25px;
+}
+
 hr{
   border-style: none;
   border-top-style: dotted;
