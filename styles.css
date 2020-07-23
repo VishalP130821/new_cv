@@ -11,12 +11,13 @@ h1{
   color: #45b29a;
 }
 h2{
+  color: #4ea0ae;
   font-family: 'Merriweather Sans', sans-serif;
 }
 
 h3{
+  color: #4ea0ae;
   font-family: 'Merienda One', cursive;
-
 }
 
 .A_programmer{
@@ -70,6 +71,10 @@ a:hover{
 
 .footer-link{
   font-size: 25px;
+}
+
+.red-hot{
+  color: red;
 }
 
 hr{
