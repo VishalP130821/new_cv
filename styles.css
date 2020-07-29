@@ -38,7 +38,7 @@ p {
 }
 
 a:hover {
-  color: #cdb30c;
+  color: #f37121;
 }
 
 .A_programmer {
@@ -90,6 +90,8 @@ a:hover {
 
 .copyright-info {
   color: #111d5e;
+  font-size: 0.75rem;
+  padding: 40px 0 2px;
 }
 .my-image {
   padding-top: 40px;
@@ -129,11 +131,15 @@ a:hover {
 }
 
 .footer-link {
-  font-size: 90%;
+  font-size: 100%;
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #07031a;
 }
 
 .red-hot {
@@ -176,13 +182,14 @@ a:hover {
       font-family: 'Montserrat', sans-serif;
       font-size: 2.8rem;
       font-weight: normal;
-      padding-top: 20px;
+      padding-top: 40px;
       padding-bottom: 10px;
 }
 
 .get-in-touch-description{
   color: #0f4c75;
   width: 40%;
-  margin: 40px auto 80px;
+  margin: 50px auto 80px;
   line-height: 2;
 }
+
