@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   background-color: #e0ebe8;
   text-align: center;
 }
@@ -15,17 +16,40 @@ h1 {
 h2 {
   color: #4ea0ae;
   font-family: 'Merriweather Sans', sans-serif;
+  padding-bottom: 15px;
 }
 
 h3 {
   color: #11999E;
   font-family: 'Merienda One', cursive;
 }
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #006a71;
+  border-width: 6px;
+  width: 10%;
+  margin: 100px auto;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+a:hover {
+  color: #cdb30c;
+}
 
 .A_programmer {
   font-weight: normal;
   font-family: papyrus;
   font-size: 2.5rem;
+  color: #66BFBF;
+  line-height: normal;
+}
+
+.my-info{
   color: #66BFBF;
 }
 
@@ -34,6 +58,21 @@ h3 {
   position: relative;
   padding-top: 100px;
   margin: 0;
+}
+
+.middle-container{
+  margin: 100px 0 0 0;
+}
+
+.intro{
+  width: 28%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #bbe1fa;
+  padding: 50px 0 20px;
+  margin-top: 80px;
 }
 
 .top-cloud {
@@ -50,13 +89,8 @@ h3 {
 }
 
 .copyright-info {
-  color: #006a71;
+  color: #111d5e;
 }
-
-a:hover {
-  color: #cdb30c;
-}
-
 .my-image {
   padding-top: 40px;
   width: 200px;
@@ -67,7 +101,7 @@ a:hover {
   width: 50%;
   margin: 70px auto 70px auto;
   text-align: left;
-  line-height: 2;
+
 }
 
 
@@ -97,6 +131,9 @@ a:hover {
 .footer-link {
   font-size: 90%;
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
 }
 
 .red-hot {
@@ -107,39 +144,32 @@ a:hover {
   margin: auto auto 28px auto;
 }
 
-.btn{
-  display: inline-block;
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  border-radius: 8px;
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  background-color: blue;
-  margin: 28px auto 28px 10px;
 }
 
 .btn:hover {
-  background: #30e3cb;
   color: white;
-}
-
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #006a71;
-  border-width: 6px;
-  width: 10%;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.bottom-container {
-  background-color: #bbe1fa;
-  padding: 50px 0 20px;
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
 
 .get-in-touch{
@@ -153,6 +183,6 @@ p {
 .get-in-touch-description{
   color: #0f4c75;
   width: 40%;
-  margin: 40px auto 20px;
+  margin: 40px auto 80px;
   line-height: 2;
 }
