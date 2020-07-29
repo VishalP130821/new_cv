@@ -1,90 +1,158 @@
-body{
-  background-color: #E0EBE8;
+body {
+  background-color: #e0ebe8;
   text-align: center;
 }
 
-h1{
-  font-size: 90px;
+h1 {
+  font-size: 5.625rem;
   font-family: 'Sacramento', cursive;
   width: 40%;
-  margin: 0 auto 0 auto;
-  color: #45b29a;
+  margin: 70px auto 0 auto;
+  color: #66BFBF;
+  line-height: 1.5;
 }
-h2{
+
+h2 {
   color: #4ea0ae;
   font-family: 'Merriweather Sans', sans-serif;
 }
 
-h3{
-  color: #4ea0ae;
+h3 {
+  color: #11999E;
   font-family: 'Merienda One', cursive;
 }
 
-.A_programmer{
-  font-weight: bold;
+.A_programmer {
+  font-weight: normal;
   font-family: papyrus;
-  font-size: 30px;
-  color: #45b29a;
+  font-size: 2.5rem;
+  color: #66BFBF;
 }
 
-.top-container{
-  background-color: #cbeaed;
+.top-container {
+  background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
+  margin: 0;
 }
 
-.top-cloud{
+.top-cloud {
   margin-top: 20px;
   position: absolute;
   right: 106px;
   top: 50px;
 }
 
-
-.bottom-cloud{
+.bottom-cloud {
   position: absolute;
   left: 128px;
   bottom: 300px;
 }
 
-.copyright-info{
+.copyright-info {
   color: #006a71;
 }
-a:hover{
-  color: orange;
+
+a:hover {
+  color: #cdb30c;
 }
 
-.my-image{
+.my-image {
   padding-top: 40px;
   width: 200px;
   height: 200px;
 }
-.skill-image2{
+
+.skill-row{
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+
+.skill-image {
   width: 180px;
   height: 180px;
+  float: right;
+  margin-left: 30px;
 }
 
-.skill-image1{
+.skill-image1 {
   width: 180px;
   height: 180px;
+  float: left;
+  margin-right: 30px;
 }
 
-.footer-link{
-  font-size: 25px;
+
+.skill-image2 {
+  width: 180px;
+  height: 180px;
+  float: right;
+  margin-left: 30px;
 }
 
-.red-hot{
+.footer-link {
+  font-size: 90%;
+  color: #11999E;
+}
+
+.red-hot {
   color: red;
 }
 
-hr{
+.contact-me{
+  margin: auto auto 28px auto;
+}
+
+.btn{
+  display: inline-block;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  background-color: blue;
+  margin: 28px auto 28px 10px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  color: #900d0d;
+}
+
+hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: grey;
+  border-color: #006a71;
   border-width: 6px;
   width: 10%;
 }
 
-p{
+p {
   font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-container {
+  background-color: #bbe1fa;
+  padding: 50px 0 20px;
+}
+
+.get-in-touch{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.8rem;
+      font-weight: normal;
+      padding-top: 20px;
+      padding-bottom: 10px;
+}
+
+.get-in-touch-description{
+  color: #0f4c75;
+  width: 40%;
+  margin: 40px auto 20px;
+  line-height: 2;
 }
