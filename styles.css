@@ -1,6 +1,6 @@
 body {
   color: #5f6769;
-  background-color: #eeeeee;
+  background-color: #eeecda;
   text-align: center;
 }
 
@@ -54,7 +54,7 @@ a:hover {
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #E0EBE8;
   position: relative;
   padding-top: 100px;
   margin: 0;
