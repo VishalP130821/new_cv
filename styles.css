@@ -69,11 +69,7 @@ a:hover {
   margin: auto;
 }
 
-.bottom-container {
-  background-color: #bbe1fa;
-  padding: 50px 0 20px;
-  margin-top: 80px;
-}
+
 
 .top-cloud {
   margin-top: 20px;
@@ -134,7 +130,7 @@ a:hover {
   font-size: 100%;
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
+  margin: 10px 40px;
   text-decoration: none;
 }
 
@@ -193,3 +189,57 @@ a:hover {
   line-height: 2;
 }
 
+#footer{
+  text-align: center;
+  padding: 6%;
+  background-color: #d3dbff;
+  line-height: 2;
+}
+
+
+.footer-icon{
+  padding: 1%;
+  padding-bottom: 2%;
+}
+
+.twitter-icon{
+  color: #00b7c2;
+}
+
+.twitter-icon:hover{
+  color: blue;
+}
+
+
+.facebook-icon{
+  color: blue;
+}
+
+.facebook-icon:hover{
+  color: black;
+}
+
+.instagram-icon{
+  color: magenta;
+}
+.instagram-icon:hover{
+  color: #b52b65;
+}
+
+.gmail-icon{
+  color: #ed6663;
+}
+
+.gmail-icon:hover{
+  color: #810000;
+}
+
+
+.web-link:hover{
+  opacity: 0.7;
+}
+
+.web-image{
+  width: 1.5%;
+  height: 1.5%;
+}
